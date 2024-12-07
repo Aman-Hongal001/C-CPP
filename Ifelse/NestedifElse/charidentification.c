@@ -3,21 +3,21 @@
 int main()
 {
     char ch;
-    printf("Enter the character \n ");
+    printf("Enter the character \n");
     scanf("%c",&ch);
-    if(ch>='a' || ch<='z')
+    if(ch>='a' && ch<='z')
     {
         printf("Character is Small");
     }
     else
     {    
-        if(ch>='A' || ch<='Z')
+        if(ch>='A' && ch<='Z')
         {
             printf("Character is Capital");
         }   
         else
         {    
-            if(ch>='0' || ch<='9')
+            if(ch>='0' && ch<='9')
             {
                 printf("It is Digit");
             }
