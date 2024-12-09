@@ -1,7 +1,7 @@
 // Take a Amount from user suppose 1000 you can accept denomination of 500 50 20 10 5 1. find the dinomination of the given amount. 
 #include<stdio.h>
 int main(){
-    int a500, a50, a20, a10, a5, a1, num;
+    int a500=0, a50=0, a20=0, a10=0, a5=0, a1=0, num=0;
     printf("Enter the Amount : \n");
     scanf("%d",&num);
     a500 = num/500;
