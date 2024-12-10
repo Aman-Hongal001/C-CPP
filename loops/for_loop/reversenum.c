@@ -3,17 +3,16 @@
 #include<stdio.h>
 int main()
 {
-    int num,temp,ori,rev=0;
+    int num,temp,rev=0;
     printf("Enter the number to reverse \n");
     scanf("%d",&num);
 
-    while (num>0)
+    for(;num>0;num=num/10)
     {
         temp = num%10;
-        // printf("%d",temp);
         rev = (rev*10)+temp;
-        num /= 10;
     }
+    
     printf("Reverse is : %d",rev);
     return 0;
     
