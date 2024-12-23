@@ -1,1 +1,2 @@
-arr[size];
+
+    //     printf("%d\n",sum[i]);
