@@ -16,7 +16,5 @@ int stringLength(char* ptr)
     int i=0;
     while (ptr[i]!='\0')
         i++;
-    
     return i;
-    
 }
